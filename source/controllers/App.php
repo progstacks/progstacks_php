@@ -94,7 +94,7 @@ class App {
         } catch (Exception $exc) {
             $content['exception'] = $exc->getTraceAsString();
         }
-        echo $ctrl->render('site/templates/page',$content);
+        echo $ctrl->render('templates/page',['content'=>$content]);
 
     }
 

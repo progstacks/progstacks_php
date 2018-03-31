@@ -24,6 +24,7 @@ abstract class BaseController {
     
     public function render($template, $param){
         ob_start();
+        extract($param, EXTR_SKIP);
         include('source/views/'.$template.'.php');
         $ret = ob_get_contents();
         ob_end_clean();
