@@ -1,3 +1,3 @@
 # progstacks_php
 PHP Liteweight Framework
-This project doesnt aim to reinvent the wheel, this if for begineers who wants to have experience creating a wheel.
+This project aims not to reinvent the wheel, This is for begineers who wants to have experience creating a PHP framework from scratch.
